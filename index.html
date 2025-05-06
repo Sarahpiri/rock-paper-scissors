@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button id="themeToggle" class="theme-toggle">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+    </button>
+    <div class="heading">
+        <div class="game-title">
+            <span>ROCK</span>
+            <span>PAPER</span>
+            <span>SCISSORS</span>
+            <span>LIZARD</span>
+            <span>SPOCK</span>
+        </div>
+        
+        <div class="score-container">
+            <div class="score-title">SCORE</div>
+            <div class="score-value" id="score">0</div>
+        </div>
+    </div>
+    
+    
+    <div class="choices">
+        <button class="choice" data-choice="rock">✊</button>
+        <button class="choice" data-choice="paper">✋</button>
+        <button class="choice" data-choice="scissors">✌️</button>
+        <button class="choice" data-choice="lizard">🦎</button>
+        <button class="choice" data-choice="spock">🖖</button>
+    </div>
+    
+    <div class="result" id="result"></div>
+    
+    <button class="rules-btn" id="rulesBtn">RULES</button>
+    <button class="refresh-btn" id="refreshBtn">RESET GAME</button>
+    
+    <div class="rules-modal" id="rulesModal">
+        <div class="rules-content">
+            <h2>Game Rules</h2>
+            <p>Scissors cuts Paper</p>
+            <p>Paper covers Rock</p>
+            <p>Rock crushes Lizard</p>
+            <p>Lizard poisons Spock</p>
+            <p>Spock smashes Scissors</p>
+            <p>Scissors decapitates Lizard</p>
+            <p>Lizard eats Paper</p>
+            <p>Paper disproves Spock</p>
+            <p>Spock vaporizes Rock</p>
+            <p>Rock crushes Scissors</p>
+            <button class="close-btn" id="closeBtn">Close</button>
+        </div>
+    </div>
+    
+    <script src="./main.js">
+       
+    </script>
+</body>
+</html>
