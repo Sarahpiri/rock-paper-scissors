@@ -20,6 +20,7 @@ Reset Game: Option to clear scores and start a new game.
 
 📸 **Demo**
 
+![A brief look at the performance of the project (e.g., Interactive demo in action)](assets/R-P-S.gif)
 
 
 🛠️ **Technologies Used**
