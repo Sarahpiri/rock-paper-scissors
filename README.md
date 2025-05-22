@@ -27,6 +27,7 @@ HTML5: For structuring the game's interface.
 CSS3: For styling the game elements and layout.
 JavaScript (Vanilla JS): The core programming language for game logic, user interaction, and DOM manipulation.
 
+---
 
 💻 **How to Run Locally**
 
